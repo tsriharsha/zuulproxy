@@ -1,0 +1,6 @@
+zuul:
+  sensitive-headers:
+  routes:
+    testService:
+      path: /api/v1/testing/**
+      url: http://web
